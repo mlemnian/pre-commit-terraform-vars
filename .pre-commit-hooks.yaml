@@ -1,7 +1,7 @@
 - id: terraform-vars
   name: terraform-unused-vars
   description: Find unused variables in Terraform.
-  language: python_venv
+  language: python
   files: (\.tf)$
   exclude: \.terraform\/.*$
   minimum_pre_commit_version: 1.9.0
